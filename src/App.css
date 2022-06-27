@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+text-align: center;
+margin: 20px;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  position: relative;
+  background: #fff;
+  width: 50vw;
+  height: 30vh;
+  margin: 0 auto;
+  top: 35vh;
+  padding: 20px;
+}
+
+.bx{
+  font-size: 50px;
+}
+
+.container span{
+  font-size: 25px;
+}
+
+.container cite{
+  position: relative;
+  left: 200px;
+  font-size: 25px;
+}
+
+button{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
